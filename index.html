@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>fast web page</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        body{
+            background-image: url(./ss/opi\ 2.jpeg);
+            background-repeat: no-repeat;
+            background-size: cover;
+
+        }
+         .navbar {
+            display: flex;
+            justify-content: space-between; /* logo left, menu right */
+            align-items: center;
+            background: #333;
+            padding: 5px 15px;
+            border-radius: 50px;
+            
+        }
+
+        .navbar h1 {
+            color: white;
+            color: aqua;
+        }
+
+        .navbar ul {
+            list-style: none;   /* dot remove */
+            display: flex;      /* side by side */
+            margin: 0;
+            padding: 0;
+        }
+
+        .navbar ul li {
+            margin: 0 15px;     /* space between */
+        }
+
+        .navbar ul li a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+        }
+
+        .navbar ul li a:hover {
+            color: yellow;      /* hover effect */
+        }
+        .search{
+            background-color: orangered;
+            border-radius: 4px;
+           
+        }
+        input{
+            border: 1px solid orangered;
+            border-radius: 4px;
+            padding: 4px;
+        }
+        button{
+            background-color: orangered;
+            border: 2px solid orangered;
+            color: white;
+        }
+        .main{
+            display: flex;
+            justify-content: center;
+            gap: 800px;
+            margin: 10px;
+          
+
+        }
+        .content{
+            font-size: 25px;
+            margin-top: 160px;
+            color: rgb(247, 244, 244);
+        }
+
+        #color{
+            color: orangered;
+        }
+        
+        .button{
+            color: black;
+            width: 110px ;
+            height: 25px;
+            border-radius: 5px;
+        }
+        .content2{
+        color: white;
+        background-color: black;
+        height:300px;
+        padding: 50px;
+        border-radius: 10px;
+        font-size: 19px;
+        margin-top: 180px;
+        
+        }  
+        .loine{
+            color: orangered;
+            background-color: white;
+            text-align: center;
+            border-radius: 5px;
+            font-size: 10px;
+        }
+
+        .just{
+           width: 170px ;
+          height: 25px; 
+          border-radius: 5px;
+        }
+        .sign{
+            color: orangered;
+        }
+    </style>
+
+</head>
+<body>
+    
+    <nav class="navbar background">
+        <div class="lovo" >
+            <h1>PraRoz</h1>
+
+        </div>
+        <ul>
+            <li> <a href="#home">HOME</a></li>
+            <li> <a href="#about">ABOUT</a></li>
+            <li><a href="#servic">SERVICE</a></li>
+            <li><a href="#design">DESIGN</a></li>
+            <li><a href="#contact">CONTACT</a></li>
+        </ul>
+        <div class="search">
+        <input type="text" placeholder="Tap to search">
+        <button >Search</button>
+        </div>
+
+    </nav>
+
+    
+       <div class="main">
+         <div class="content">
+            <h1>Web Design & <span id="color">Deploment</span> Course</h1>
+            <p>Web Design is a specialistation of the design stream.They also use HTML. CSS.WYSIWYG editing software. mark up vaildators etc, to create design elements.</p>
+            <button class="button">JOIN US</button>
+        </div>
+
+
+
+    <div class="content2">
+        
+        <div class="loine"><h1 >Login Here</h1></div>
+        <input type="text" placeholder="Enter Email Here" ><br><br>
+        <input type="text" placeholder="Enter Password Here"><br><br>
+        <button class="just">Login</button>
+        <p>Don't have an account? <span class="sign">Sign up</span> here</p>
+
+        <p>Log in With</p>
+
+        <i class="fa-brands fa-facebook"></i>
+        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-brands fa-x-twitter"></i>
+        <i class="fa-brands fa-google"></i>
+        <i class="fa-brands fa-skype"></i>
+
+
+    </div>
+       </div>
+    
+ 
+</body>
+</html>

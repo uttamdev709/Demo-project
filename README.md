@@ -17,6 +17,7 @@ It contains a responsive **Navigation Bar**, **Search Bar**, **Main Content Sect
 ---
 
 ![demo](https://github.com/uttamdev709/Demo-project/blob/main/ss/Screenshot%202025-09-16%20125748.png)
+sample photo
 
 ## 🛠️ Technologies Used
 - **HTML5**
